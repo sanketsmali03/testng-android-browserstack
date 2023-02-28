@@ -1,0 +1,28 @@
+{
+  "server": "hub.browserstack.com",
+
+  "capabilities": {
+    "app": "bs://2c0bc7fe892283319662f2888adff7b116ee2eec",
+    "autoWebView": true,
+    "autoGrantPermissions": true,
+    "automationName": "flutter",
+    "bstack:options": {
+      "projectName": "First TestNg Android Project",
+      "buildName": "Tata Neu Build",
+      "sessionName": "BStack first_test",
+      "debug": true,
+      "userName": "sanketmali4",
+      "accessKey": "CJhPAEJj1kYV2UV7Hmqz",
+      "appiumVersion" : "1.22.0",
+      "idleTimeout": "300"
+    }
+  },
+
+  "environments": [
+    {
+      "deviceName": "Samsung Galaxy S23",
+      "platformVersion": "13.0",
+      "platformName": "android"
+    }
+  ]
+}

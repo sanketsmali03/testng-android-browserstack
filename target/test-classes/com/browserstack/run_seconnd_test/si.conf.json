@@ -1,0 +1,28 @@
+{
+  "server": "hub.browserstack.com",
+
+  "capabilities": {
+    "app": "bs://2af1b2526aeaf79e29396116f9aa03d180b41eed",
+    "autoWebView": true,
+    "autoGrantPermissions": true,
+    "automationName": "UIAutomator2",
+    "bstack:options": {
+      "projectName": "First TestNg Android Project",
+      "buildName": "Tata Neu Build",
+      "sessionName": "Tata Neu Session SIT",
+      "debug": true,
+      "userName": "sanketmali4",
+      "accessKey": "CJhPAEJj1kYV2UV7Hmqz",
+      "appiumVersion" : "1.22.0",
+      "idleTimeout": "300"
+    }
+  },
+
+  "environments": [
+    {
+      "deviceName": "Google Pixel 7",
+      "platformVersion": "13.0",
+      "platformName": "android"
+    }
+  ]
+}
